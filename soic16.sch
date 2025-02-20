@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 67B75213
+P 5450 4100
+F 0 "C1" H 5565 4146 50  0000 L CNN
+F 1 "C" H 5565 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5488 3950 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J1
+U 1 1 67B7861C
+P 6100 3100
+F 0 "J1" H 6150 3617 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 6150 3526 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6100 3100 50  0001 C CNN
+F 3 "~" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J2
+U 1 1 67B79042
+P 6200 4300
+F 0 "J2" V 6204 4680 50  0000 L CNN
+F 1 "Conn_02x08_Counter_Clockwise" V 6295 4680 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6200 4300 50  0001 C CNN
+F 3 "~" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2800 5800 2800
+Wire Wire Line
+	5800 2800 5800 3600
+Wire Wire Line
+	5800 3600 6500 3600
+Wire Wire Line
+	6500 3600 6500 4100
+Wire Wire Line
+	6400 4100 6400 3650
+Wire Wire Line
+	6400 3650 5750 3650
+Wire Wire Line
+	5750 2900 5900 2900
+Wire Wire Line
+	5750 3650 5750 2900
+Wire Wire Line
+	6300 3700 5700 3700
+Wire Wire Line
+	5700 3700 5700 3000
+Wire Wire Line
+	5700 3000 5900 3000
+Wire Wire Line
+	6300 3700 6300 4100
+Wire Wire Line
+	6200 4100 6200 3750
+Wire Wire Line
+	6200 3750 5650 3750
+Wire Wire Line
+	5650 3750 5650 3100
+Wire Wire Line
+	5650 3100 5900 3100
+Wire Wire Line
+	6100 4100 6100 3800
+Wire Wire Line
+	6100 3800 5600 3800
+Wire Wire Line
+	5600 3800 5600 3200
+Wire Wire Line
+	5600 3200 5900 3200
+Wire Wire Line
+	6000 4100 6000 3850
+Wire Wire Line
+	6000 3850 5550 3850
+Wire Wire Line
+	5550 3850 5550 3300
+Wire Wire Line
+	5550 3300 5900 3300
+Wire Wire Line
+	5900 4100 5900 3900
+Wire Wire Line
+	5900 3900 5500 3900
+Wire Wire Line
+	5500 3900 5500 3400
+Wire Wire Line
+	5500 3400 5900 3400
+Wire Wire Line
+	5800 4100 5800 3950
+Wire Wire Line
+	5800 3950 5450 3950
+Wire Wire Line
+	5450 3950 5450 3500
+Wire Wire Line
+	5450 3500 5900 3500
+Wire Wire Line
+	6500 4600 6500 4650
+Wire Wire Line
+	6500 4650 6600 4650
+Wire Wire Line
+	6600 4650 6600 2800
+Wire Wire Line
+	6600 2800 6400 2800
+Wire Wire Line
+	6400 4600 6400 4700
+Wire Wire Line
+	6400 4700 6650 4700
+Wire Wire Line
+	6650 4700 6650 2900
+Wire Wire Line
+	6650 2900 6400 2900
+Wire Wire Line
+	6300 4600 6300 4750
+Wire Wire Line
+	6300 4750 6700 4750
+Wire Wire Line
+	6700 4750 6700 3000
+Wire Wire Line
+	6700 3000 6400 3000
+Wire Wire Line
+	6200 4600 6200 4800
+Wire Wire Line
+	6200 4800 6750 4800
+Wire Wire Line
+	6750 4800 6750 3100
+Wire Wire Line
+	6750 3100 6400 3100
+Wire Wire Line
+	6100 4600 6100 4850
+Wire Wire Line
+	6100 4850 6800 4850
+Wire Wire Line
+	6800 4850 6800 3200
+Wire Wire Line
+	6800 3200 6400 3200
+Wire Wire Line
+	6000 4600 6000 4900
+Wire Wire Line
+	6000 4900 6850 4900
+Wire Wire Line
+	6850 4900 6850 3300
+Wire Wire Line
+	6850 3300 6400 3300
+Wire Wire Line
+	5900 4600 5900 4950
+Wire Wire Line
+	5900 4950 6900 4950
+Wire Wire Line
+	6900 4950 6900 3400
+Wire Wire Line
+	6900 3400 6400 3400
+Wire Wire Line
+	5800 4600 5800 5000
+Wire Wire Line
+	5800 5000 6950 5000
+Wire Wire Line
+	6950 5000 6950 3500
+Wire Wire Line
+	6950 3500 6400 3500
+Connection ~ 5450 3950
+Wire Wire Line
+	6500 4650 5450 4650
+Wire Wire Line
+	5450 4650 5450 4250
+Connection ~ 6500 4650
+$EndSCHEMATC

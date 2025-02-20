@@ -1,2 +1,13 @@
-# soic16a
-a narrow soic16 to dip adapter for breadboards.
+# soicAdapter
+narrow soic16 to dip adater for breadboarding room.
+
+internet inspired narrow soic16 adapter
+
+5pcs jlcpcb were $3.20 (because I paid with paypal)
+
+
+The zip file is all the gerber files to have it made.
+
+![ ](soic16T.png)
+![ ](soic16B.png)
+
